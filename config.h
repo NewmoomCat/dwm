@@ -14,7 +14,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *volup[]   = { "pamixer", "-i", "5", NULL };
 static const char *voldown[] = { "pamixer", "-d", "5", NULL };
 static const char *volmute[] = { "pamixer", "-m", NULL };
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12" };
+static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=14" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
