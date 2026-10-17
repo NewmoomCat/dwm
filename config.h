@@ -28,6 +28,7 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
+  "sh", "-c", "xrandr --output HDMI-0 --mode 2560x1440 --rate 100", NULL,
   "/usr/lib/xdg-desktop-portal", NULL,
   "/usr/lib/xdg-desktop-portal-gtk", NULL,
   "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1", NULL,
